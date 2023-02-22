@@ -8,6 +8,10 @@ eureka:
     hostname: localhost
     
 microservices:
+  order-service:
+    endpoints:
+      endpoint:
+        uri: http://ORDER-SVC/order/postOrder
   payment-service:
     endpoints:
       endpoint:
